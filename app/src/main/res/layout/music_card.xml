@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardElevation="0dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:src="@drawable/tiara_andini"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/arti_untuk_cinta"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_semibold"
+        app:layout_constraintTop_toBottomOf="@id/cardView"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    
+    <TextView
+        android:id="@+id/tvBonusInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/arsy_widianto_tiar"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/play_song"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@id/cardView"
+        app:layout_constraintEnd_toEndOf="@id/cardView"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

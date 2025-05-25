@@ -6,5 +6,8 @@
     android:text="Outlined button"
     style="@style/Widget.Material3.Button.OutlinedButton.Icon"
     android:fontFamily="@font/montserrat_semibold"
-    app:icon="@drawable/green_border_heart"
+    app:icon="@drawable/green_heart"
+    app:iconTint="@color/primary_color"
+    app:strokeColor="@color/white"
+    android:textColor="@color/white"
     />
