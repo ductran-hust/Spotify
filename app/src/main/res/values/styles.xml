@@ -28,4 +28,45 @@
         <item name="android:padding">24dp</item>
         <item name="strokeWidth">1dp</item>
     </style>
+
+    <style name="menu_linearLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+    </style>
+
+    <style name="menu_ImageView">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="menu_textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="BottomNavigationTheme" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorOnPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryContainer">@android:color/transparent</item>
+        <item name="colorOnPrimaryContainer">@android:color/transparent</item>
+        <item name="colorSecondary">@android:color/transparent</item>
+        <item name="colorOnSecondary">@android:color/transparent</item>
+        <item name="colorSecondaryContainer">@android:color/transparent</item>
+        <item name="colorOnSecondaryContainer">@android:color/transparent</item>
+        <item name="colorSurface">@android:color/transparent</item>
+        <item name="colorOnSurface">@android:color/transparent</item>
+        <item name="colorSurfaceVariant">@android:color/transparent</item>
+        <item name="colorOnSurfaceVariant">@android:color/transparent</item>
+    </style>
 </resources>

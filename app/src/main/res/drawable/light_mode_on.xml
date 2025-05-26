@@ -22,8 +22,7 @@
                 C21.7389,73.8888 18,68.5115 18,62.5Z"/>
     </group>
 
-    <group
-        android:clipPathData="M20,22h32v32h-32z">
+    <group>
 
         <path
             android:strokeColor="#FFFFFFFF"

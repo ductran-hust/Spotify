@@ -9,13 +9,9 @@
     tools:context=".presentation.ui.MainActivity">
 
     <include
-        layout="@layout/banner_card"/>
-
-    <include
-        layout="@layout/green_button"/>
-
-
-
-
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/bottom_app_bar"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
