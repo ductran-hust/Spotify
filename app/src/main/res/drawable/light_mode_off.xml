@@ -12,8 +12,7 @@
             A36.5,36.5 0 1,1 36.5,0Z" />
 
     <!-- Group with clipPath (clip to 32x32 at (20,22)) -->
-    <group
-        android:clipPathData="M20,22h32v32h-32z">
+    <group>
 
         <path
             android:strokeColor="#FFFFFFFF"

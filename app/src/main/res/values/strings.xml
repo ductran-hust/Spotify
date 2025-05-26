@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Spotify</string>
     <string name="layer_name">figma_text</string>
     <string name="sisa_rasa">Sisa Rasa</string>
     <string name="lyrics_sisa_rasa">Masih jelas teringat (jelas teringat) pelukanmu yang hangat
@@ -81,7 +82,7 @@
     <string name="log_in">Log In</string>
     <string name="enter_username_email">Enter Username Or Email</string>
     <string name="forgot_password">Forgot password?</string>
-    <string name="dont_have_account">don't have an account? Register</string>
+    <string name="dont_have_account">don\'t have an account? Register</string>
     <string name="sign_up_free">Sign up free</string>
     <string name="continue_with_phone">Continue with phone number</string>
     <string name="continue_with_google">Continue with Google</string>
