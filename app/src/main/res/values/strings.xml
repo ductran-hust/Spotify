@@ -1,93 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Spotify</string>
-    <string name="layer_name">figma_text</string>
-    <string name="sisa_rasa">Sisa Rasa</string>
-    <string name="lyrics_sisa_rasa">Masih jelas teringat (jelas teringat) pelukanmu yang hangat
-        Seakan semua tak mungkin menghilang (menghilang)
-        Kini hanya kenangan yang t\'lah kau tinggalkan
-        Tak tersisa lagi waktu bersama (waktu bersama)
-        Mengapa masih ada
-        Sisa rasa di dada
-        Di saat kau pergi begitu saja? (Begitu saja)
-        Mampukah ku bertahan
-        Tanpa hadirmu, sayang?
-        Tuhan, sampaikan rindu untuknya
-        Oh, masih tersimpan
-        Setiap kеnangan, ho-wo-wo-oh
-        Semua cinta yang kau beriKau takkan terganti</string>
-    <string name="mahalini">Mahalini</string>
     <string name="follow">Follow</string>
-    <string name="tulus">Tulus</string>
     <string name="followers">Followers</string>
-    <string name="monthly_listeners">43,877,516 monthly listeners</string>
+    <string name="monthly_listeners">%1$d monthly listeners</string>
     <string name="albums">Albums</string>
-    <string name="manusia">Manusia</string>
-    <string name="monokrom">Monokrom</string>
-    <string name="gajah">Gajah</string>
     <string name="songs">Songs</string>
-    <string name="hati_hati_di_jalan">Hati-Hati di Jalan</string>
-    <string name="diri">Diri</string>
     <string name="home">Home</string>
     <string name="playlist">Playlist</string>
     <string name="history">History</string>
     <string name="profile">Profile</string>
     <string name="now_playing">Now Playing</string>
     <string name="lyrics">Lyrics</string>
-    <string name="fauzian_ahmad">Fauzian Ahmad</string>
-    <string name="fauzian_email">fauzianahmad04@gmail.com</string>
     <string name="following">Following</string>
     <string name="find_friend">Find friend</string>
     <string name="share">Share</string>
     <string name="mostly_played">Mostly played</string>
-    <string name="dekat_di_hati">Dekat Di Hati</string>
-    <string name="ran">RAN</string>
-    <string name="bigger_than_the_whole">Bigger Than The Whole...</string>
-    <string name="taylor_swift">Taylor Swift</string>
-    <string name="matilda">Matilda</string>
-    <string name="harry_styles">Harry Styles</string>
     <string name="today">Today</string>
-    <string name="happiers">Happiers</string>
-    <string name="remaj">Remaja</string>
-    <string name="hivi">Hivi!</string>
     <string name="see_all_played">See all played</string>
     <string name="yesterday">Yesterday</string>
-    <string name="sadness">Sadness</string>
     <string name="liked_songs">Liked Songs</string>
-    <string name="party">Party</string>
-    <string name="birthday">Birthday</string>
-    <string name="highschool">Highschool</string>
     <string name="popular">Popular</string>
     <string name="todays_hits">Today’s hits</string>
-    <string name="arti_untuk_cinta">ArTi Untuk Cinta</string>
-    <string name="runtuh">Runtuh</string>
-    <string name="blue_jeans">Blue Jeans</string>
-    <string name="arsy_widianto_tiar">Arsy Widianto, Tiara Andini</string>
-    <string name="feby_putri_fiersa">Feby Putri, Fiersa B...</string>
-    <string name="gangga">GANGGA</string>
     <string name="artists">Artists</string>
     <string name="album">Album</string>
     <string name="podcast">Podcast</string>
     <string name="genre">Genre</string>
-    <string name="adele">Adele</string>
-    <string name="tiara_andini">Tiara Andini</string>
     <string name="register">Register</string>
-    <string name="support_message">If You Need Any Support Click Here</string>
+    <string name="support_message">If You Need Any Support</string>
+    <string name="click_here">Click here</string>
     <string name="full_name">Full Name</string>
     <string name="enter_email">Enter Email</string>
     <string name="password">Password</string>
     <string name="repeat_password">Repeat Password</string>
     <string name="or">Or</string>
-    <string name="have_account">have an account? Log In</string>
+    <string name="have_account">Have an account?</string>
     <string name="log_in">Log In</string>
     <string name="enter_username_email">Enter Username Or Email</string>
     <string name="forgot_password">Forgot password?</string>
-    <string name="dont_have_account">don\'t have an account? Register</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
     <string name="sign_up_free">Sign up free</string>
     <string name="continue_with_phone">Continue with phone number</string>
     <string name="continue_with_google">Continue with Google</string>
     <string name="continue_with_facebook">Continue with facebook</string>
     <string name="music_for_everyone">Music for everyone.</string>
-    <string name="placeholder_lorem">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.</string>
     <string name="get_started">Get Started</string>
 </resources>

@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="@string/adele"
+        android:text="Adele"
         android:fontFamily="@font/montserrat_semibold"
         android:textSize="18sp"
         android:layout_marginHorizontal="10dp"

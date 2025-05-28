@@ -8,11 +8,11 @@
     android:background="@color/black"
     tools:context=".presentation.ui.MainActivity">
 
-    <include
-        android:id="@+id/bottomNav"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        layout="@layout/bottom_app_bar"
-        app:layout_constraintBottom_toBottomOf="parent"/>
 
+    <com.example.spotify.presentation.custom_components.CustomBottomNavigation
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+    />
 </androidx.constraintlayout.widget.ConstraintLayout>

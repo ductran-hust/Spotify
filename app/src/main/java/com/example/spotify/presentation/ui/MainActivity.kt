@@ -8,6 +8,7 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.spotify.R
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
@@ -32,37 +34,13 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        setUpIndicator()
-    }
-
-    private fun setUpIndicator () {
         with(binding) {
-            val ellipse = bottomNav.ellipseIndicator
-            bottomNav.bottomNavigation.post {
-                val itemView = (bottomNav.bottomNavigation.getChildAt(0) as? ViewGroup)?.getChildAt(0)
-                itemView?.let {
-                    val itemX = it.left + it.width / 2 - ellipse.width / 2
-                    ellipse.translationX = itemX.toFloat()
+            bottomNav.setOnItemSelectedListener { index ->
+                when(index) {
                 }
             }
-            bottomNav.bottomNavigation.setOnItemSelectedListener { item ->
-                val menu = bottomNav.bottomNavigation.menu
-                val selectedIndex = (0 until menu.size).indexOfFirst { menu[it].itemId == item.itemId }
-
-                bottomNav.bottomNavigation.post {
-                    val itemView = (bottomNav.bottomNavigation.getChildAt(0) as? ViewGroup)?.getChildAt(selectedIndex)
-                    itemView?.let {
-                        val itemX = it.left + it.width / 2 - ellipse.width / 2
-                        ellipse.animate()
-                            .translationX(itemX.toFloat())
-                            .setDuration(200)
-                            .setInterpolator(AccelerateDecelerateInterpolator())
-                            .start()
-                    }
-                }
-            }
-
         }
+
     }
 
     override fun onDestroy() {
