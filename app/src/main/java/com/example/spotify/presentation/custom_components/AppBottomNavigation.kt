@@ -18,7 +18,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.example.spotify.R
 
-class CustomBottomNavigation @JvmOverloads constructor(context: Context, attributeSet: AttributeSet?) : FrameLayout(context, attributeSet) {
+class AppBottomNavigation @JvmOverloads constructor(context: Context, attributeSet: AttributeSet?) : FrameLayout(context, attributeSet) {
     private val navItems = mutableListOf<NavItemView>()
     private var selectedIndex = 0
     private var onItemSelectedListener: ((Int) -> Unit)? = null
@@ -163,11 +163,11 @@ class CustomBottomNavigation @JvmOverloads constructor(context: Context, attribu
     }
 
     fun getDefaultNavItems() {
-        addNavItem(R.drawable.home_gray_outline, "Home", R.drawable.homepage)
-        addNavItem(R.drawable.music_filter_gray, "Playlist", R.drawable.music_filter)
+        addNavItem(R.drawable.home_gray_outline, ContextCompat.getString(context, R.string.home), R.drawable.homepage)
+        addNavItem(R.drawable.music_filter_gray, ContextCompat.getString(context, R.string.playlist), R.drawable.music_filter)
         addNavItem(0, "", 0)
-        addNavItem(R.drawable.clock_gray, "Playlist", R.drawable.clock)
-        addNavItem(R.drawable.profile_gray, "Playlist", R.drawable.profile)
+        addNavItem(R.drawable.clock_gray, ContextCompat.getString(context, R.string.history), R.drawable.clock)
+        addNavItem(R.drawable.profile_gray, ContextCompat.getString(context, R.string.profile), R.drawable.profile)
     }
 
     fun setOnItemSelectedListener(listener: (Int) -> Unit) {
