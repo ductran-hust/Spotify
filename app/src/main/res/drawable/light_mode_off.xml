@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="73dp"
+    android:height="73dp"
+    android:viewportWidth="73"
+    android:viewportHeight="73">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M36.5,0
+            A36.5,36.5 0 1,1 36.5,73
+            A36.5,36.5 0 1,1 36.5,0Z" />
+
+    <!-- Group with clipPath (clip to 32x32 at (20,22)) -->
+    <group>
+
+        <path
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:fillColor="@android:color/transparent"
+            android:pathData="
+                M36,23.3333 L36,26
+                M36,50 L36,52.6667
+                M50.6667,38 L48,38
+                M24,38 L21.3334,38
+                M46.3709,27.6291 L44.4853,29.5147
+                M27.5148,46.4853 L25.6291,48.3709
+                M46.3709,48.3709 L44.4853,46.4853
+                M27.5148,29.5147 L25.6291,27.6291
+                M44,38
+                C44,42.4183 40.4183,46 36,46
+                C31.5818,46 28,42.4183 28,38
+                C28,33.5817 31.5818,30 36,30
+                C40.4183,30 44,33.5817 44,38 Z" />
+    </group>
+
+</vector>

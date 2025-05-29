@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="73dp"
+    android:height="79dp"
+    android:viewportWidth="73"
+    android:viewportHeight="79">
+
+    <!-- Màu xanh phần bóng và đường cong -->
+    <path
+        android:fillColor="#1ED760"
+        android:pathData="M18,62
+            H54
+            C54,67.9909 50.2176,73.329 44.5654,75.3149
+            L41.5231,76.3838
+            C37.6309,77.7513 33.3828,77.7136 29.5154,76.2772
+            L27.3743,75.4819
+            C21.7389,73.3888 18,68.0115 18,62
+            Z"/>
+
+    <!-- Vòng tròn nền xám nhạt mờ -->
+    <path
+        android:fillColor="#1AFFFFFF"
+    android:pathData="M0,36.5
+    A36.5,36.5 0 1,0 73,36.5
+    A36.5,36.5 0 1,0 0,36.5Z" />
+
+    <!-- Đường viền cong màu trắng với stroke -->
+    <path
+        android:pathData="M36.4044,37.5833
+            C42.4044,47.9756 53.6769,44.9315 46.5025,49.0736
+            C39.3281,53.2158 30.1543,50.7576 26.0121,43.5833
+            C21.87,36.4089 24.3281,27.235 31.5025,23.0929
+            C38.6769,18.9507 30.4044,27.1909 36.4044,37.5833Z"
+        android:strokeColor="#F0F0F0"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+
+</vector>

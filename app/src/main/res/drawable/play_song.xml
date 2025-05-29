@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="20"
+    android:viewportHeight="20">
+
+    <!-- Hình tròn nền -->
+    <path
+        android:fillColor="#818181"
+        android:pathData="M10 20C4.48372 20 0 15.5163 0 10C0 4.48372 4.48372 0 10 0C15.5163 0 20 4.48372 20 10C20 15.5163 15.5163 20 10 20Z" />
+
+    <!-- Biểu tượng bên trong -->
+    <path
+        android:fillColor="#F3F3F3"
+        android:pathData="M8.84662 14.065C8.45592 14.065 8.09313 13.972 7.76755 13.7859C7.02337 13.358 6.59546 12.4836 6.59546 11.3766V8.62315C6.59546 7.52547 7.02337 6.64175 7.76755 6.21385C8.51174 5.78594 9.47918 5.85106 10.4373 6.4092L12.828 7.78594C13.7769 8.33478 14.3257 9.14408 14.3257 9.99989C14.3257 10.8557 13.7769 11.665 12.828 12.2138L10.4373 13.5906C9.89778 13.9069 9.34895 14.065 8.84662 14.065Z" />
+</vector>

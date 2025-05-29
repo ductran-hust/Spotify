@@ -1,0 +1,95 @@
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="154dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:backgroundTint="@color/banner_color"
+        android:background="@drawable/rounded_background"
+        android:clipChildren="false"
+        android:layout_gravity="bottom"
+        >
+
+        <ImageView
+            android:id="@+id/btnPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/white_no_tail_arrow"
+            android:scaleX="-1"
+            android:alpha="0.4"
+            android:paddingHorizontal="10dp"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvPopular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/popular"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintVertical_bias="0.2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnPrevious"
+            />
+
+        <TextView
+            android:id="@+id/tvSongName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:text="Sisa rasa"
+            android:fontFamily="@font/montserrat_bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toEndOf="@id/btnPrevious"
+            app:layout_constraintTop_toBottomOf="@id/tvPopular"
+            />
+
+        <TextView
+            android:id="@+id/tvArtistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="Mahalini"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toEndOf="@id/btnPrevious"
+            app:layout_constraintTop_toBottomOf="@id/tvSongName"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/white_no_tail_arrow"
+            android:alpha="0.4"
+            android:paddingHorizontal="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="@android:color/transparent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/ivArtist"
+        android:layout_width="144dp"
+        android:layout_height="152dp"
+        android:src="@drawable/mahalini"
+        android:layout_gravity="end"
+        android:layout_marginEnd="24dp"
+        />
+
+</FrameLayout>
