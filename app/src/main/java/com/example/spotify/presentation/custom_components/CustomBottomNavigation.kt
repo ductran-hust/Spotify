@@ -18,7 +18,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.example.spotify.R
 
-class CustomBottomNavigation @JvmOverloads constructor(context: Context, attributeSet: AttributeSet?) : FrameLayout(context, attributeSet) {
+class AppBottomNavigation @JvmOverloads constructor(context: Context, attributeSet: AttributeSet?) : FrameLayout(context, attributeSet) {
     private val navItems = mutableListOf<NavItemView>()
     private var selectedIndex = 0
     private var onItemSelectedListener: ((Int) -> Unit)? = null
